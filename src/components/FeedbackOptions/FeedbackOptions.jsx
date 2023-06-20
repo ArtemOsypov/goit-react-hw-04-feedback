@@ -23,6 +23,7 @@ export const FeedbackOptions = ({ options, handleClick }) => {
 };
 
 
+
 FeedbackOptions.propTypes = {
   options: PropTypes.objectOf(PropTypes.number).isRequired,
   handleClick: PropTypes.func.isRequired,
